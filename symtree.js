@@ -1,6 +1,5 @@
 var isSymmetric = function(root) {
-         if (root==null ||root.left == null && root.right == null) return true; // checking if binary tree is mirror of itself
-       let left = root.left; / traverse b the tree
+         if (root==null ||root.left == null && root.right == null) return true; 
         let right = root.right;
         return check(left, right); // return value from check on tree after evaluating constraints 
     }
